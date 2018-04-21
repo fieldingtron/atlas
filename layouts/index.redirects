@@ -1,7 +1,8 @@
 # redirects for Netlify - https://www.netlify.com/docs/redirects/
+/home   /   307
+
 {{- range $p := .Site.Pages -}}
 {{- range .Aliases }}
 {{ . }} {{ $p.RelPermalink -}}
 {{- end }}
 {{- end -}}
-/home   /   307
