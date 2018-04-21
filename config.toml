@@ -1,6 +1,7 @@
 baseURL = "/"
-languageCode = "en-gb"
-title = "New Website"
+languageCode = "en-us"
+title = "New Websites"
+disableHugoGeneratorInject = true
 
 enableRobotsTXT = true
 disableAliases = true
