@@ -1,6 +1,7 @@
 # redirects for Netlify - https://www.netlify.com/docs/redirects/
 /home   /   307
 /go/cnn https://edition.cnn.com/ 307
+/cnn https://cnn.com
 {{- range $p := .Site.Pages -}}
 {{- range .Aliases }}
 {{ . }} {{ $p.RelPermalink -}}
