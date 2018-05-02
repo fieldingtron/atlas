@@ -117,12 +117,12 @@ gulp.task('js', () => {
         'node_modules/popper.js/dist/umd/popper.min.js',
         'src/js/**/*.js'
     ])
-    .pipe($.plumber({ errorHandler: onError }))
-    .pipe($.print())
-    .pipe($.babel())
-    .pipe($.concat('app.js'))
-    .pipe($.if(isProduction, $.uglify()))
-    .pipe($.size({ gzip: true, showFiles: true }))
+    // .pipe($.plumber({ errorHandler: onError }))
+    // .pipe($.print())
+    // .pipe($.babel())
+    // .pipe($.concat('app.js'))
+    // .pipe($.if(isProduction, $.uglify()))
+    // .pipe($.size({ gzip: true, showFiles: true }))
     .pipe(gulp.dest('static/js'))
 })
 

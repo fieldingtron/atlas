@@ -1,15 +1,11 @@
-[![Atlas, Hugo Boilerplate](https://atlas.indigotree.co.uk/images/github-banner.png)](https://github.com/indigotree/atlas)
-
-![](http://forthebadge.com/images/badges/uses-badges.svg) ![](http://forthebadge.com/images/badges/built-by-developers.svg) ![](http://forthebadge.com/images/badges/gluten-free.svg)
-
-# Atlas
+ 
+ # Atlas
 
 The [Hugo](https://gohugo.io/) boilerplate we use for our projects.
 
-**Disclaimer** - This boilerplate has been heavily integrated with [Netlify](https://www.netlify.com/), and therefore many features are specific to the Netlify platform and may not work with other hosting providers.
+BootStrap 4 Hugo BoilerPlate code to get started quickly based on Atlas GitHub Project
 
-**Disclaimer** - Atlas is a boilerplate (starter kit) for bespoke Hugo projects. It's not a Hugo theme and cannot be placed inside the `/themes` directory. Check the [theme](#themes) docs for more information.
-
+**Disclaimer** -  
 ## Features
 
 Atlas provides the following features out of the box:

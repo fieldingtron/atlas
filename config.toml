@@ -1,7 +1,8 @@
 baseURL = "/"
 languageCode = "en-us"
-title = "New Websites"
+title = "Title in Config.toml"
 disableHugoGeneratorInject = true
+disableKinds = ["taxonomyTerm"]
 
 enableRobotsTXT = true
 disableAliases = true
