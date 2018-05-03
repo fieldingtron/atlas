@@ -4,5 +4,8 @@
         <h1>{{ .Title }}</h1>
         {{ .Content }}
     </article>
+
+    {{ partial "carousel.html" . }}
+
     {{ partial "blog-posts.html" . }}
 {{ end }}
